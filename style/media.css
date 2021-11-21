@@ -1,0 +1,153 @@
+@media(max-width: 991px) {
+   .banner {
+      padding: 50px;
+   }
+
+   .header {
+      padding: 20px 50px;
+   }
+
+   .header__title {
+      font-size: 36px;
+   }
+
+   .header__text {
+      font-size: 16px;
+   }
+
+   .about {
+      flex-direction: column;
+   }
+
+   .about .contentBx,
+   .about .imgBx {
+      width: 100%;
+      padding: 50px;
+      min-height: 400px;
+      text-align: center;
+   }
+
+   .services {
+      padding: 50px;
+   }
+
+   .services .container {
+      justify-content: center;
+      margin-top: 20px;
+   }
+
+   .serviceBx {
+      margin: 20px;
+      width: 300px;
+      height: 350px;
+   }
+
+   .technology {
+      padding: 50px;
+      padding-top: 300px;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .technology .imgBX {
+      margin-top: 40px;
+      max-width: 250px;
+   }
+
+   .client {
+      padding: 50px;
+   }
+
+   .client__img {
+      justify-content: center;
+   }
+
+   .testimonials {
+      padding: 50px;
+   }
+
+   .testimonialBx {
+      padding: 60px 40px;
+      max-width: 550px;
+      margin-bottom: 40px;
+   }
+
+   .testimonialBx:last-child {
+      margin-bottom: 0px;
+   }
+
+   .contact {
+      padding: 50px;
+   }
+
+   .footer {
+      padding: 20px 50px;
+      flex-direction: column-reverse;
+      text-align: center;
+   }
+
+   .footer ul {
+      margin-bottom: 20px;
+   }
+}
+
+@media(max-width: 320px) {
+   
+   .header {
+      padding: 30px 15px;
+   }
+   
+   .logo {
+      font-size: 20px;
+   }
+   .toggle {
+      margin-left: 80px;
+   }
+   
+   .header__title {
+      font-size: 38px;
+      margin-bottom: 10px;
+   }
+   .header__text {
+      font-size: 16px;
+   }
+   
+   .about .contentBx {
+      padding: 30px;
+   }
+   
+   .services {
+      padding: 30px;
+   }
+   .serviceBx {
+      height: 330px;
+   }
+   
+   .heading {
+      font-size: 25px;
+   }
+   
+   .testimonials .container {
+      margin-top: 0;
+   }
+   
+   .testimonialBx {
+      padding: 28px 28px;
+   }
+   
+   .text {
+      letter-spacing: 0;
+   }
+   
+   .header__text {
+      padding-top: 40px;
+   }
+   
+   .inputBx textarea {
+      padding: 0;
+   }
+   
+   .footer {
+      padding: 20px 10px;
+   }
+}
